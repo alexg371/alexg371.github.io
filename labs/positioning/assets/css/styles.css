@@ -1,0 +1,28 @@
+* {box-sizing: border-box;}
+
+
+body {
+	margin: 20px;
+	padding: 0;
+}
+
+.square {
+	width: 250px;
+	height: 250px;
+	background: #000;
+	color: #fff;
+	margin: 0 20px 20px 0;
+	padding: 20px;
+	position: relative;
+}
+
+.circle {
+	width: 50px;
+	height: 50px;
+	background: #f00;
+	margin: 0 20px 20px 0;
+	border-radius: 100%;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
