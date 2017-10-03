@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ff0;
+	font-size: 0;
+} 
+
+.wrapper {
+	max-width: 1000px;
+	min-width: 600px;
+	margin: 0 auto 0 auto;
+}
+
+.c {
+	display: inline-block;
+	padding: 0 20px 0 20px;
+	margin: 0 0 50px 0;
+	background: #f1f1f1;
+	font-size: 20px;
+}
+
+.c1 {
+	width: 25%;
+}
+
+.c2 {
+	width: 50%;
+}
+
+.c3 {
+	width: 75%;
+}
+
+.c4 {
+	width: 100%;
+}
+
+.button-wrapper {
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.button {
+	width: 175px;
+	height: 175px;
+	background: url(../img/button.png);
+	border-radius: 100%;
+	font-size: 20px;
+}
+
+.button:hover {
+	background-position: -175px 0;
+}
