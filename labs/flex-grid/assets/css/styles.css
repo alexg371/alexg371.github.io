@@ -47,11 +47,27 @@ body {
 .button {
 	width: 175px;
 	height: 175px;
-	background: url(../img/button.png);
+	background: url(../img/button.png) no-repeat;
 	border-radius: 100%;
 	font-size: 20px;
+	transition: all 500ms ease;
+}
+
+.button-text {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	font-family: Arial;
+	background: #fff;
+	width: 90px;
 }
 
 .button:hover {
 	background-position: -175px 0;
+	transform:rotate(90deg);
+}
+
+.button:active {
+	transform: rotate(180deg);
 }
