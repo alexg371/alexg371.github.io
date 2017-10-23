@@ -1,0 +1,24 @@
+JavaScript Cheat Sheet
+
+Data types:
+string -- "this is a s string." (needs quotations around them)
+number -- 0-9 -- integers and floats can be used 
+boolean -- 0 (false)/1 (true)
+array -- ways of storing groups of information -- can put any of the other data types in it  (needs brackets around them with a semicolon to end it)
+
+Variable (var):
+a dynamic container that contains data
+'x' stores a value for you - dynamic 
+
+
+Function:
+a block of code that can be executed at any time
+
+Logic:
+If/else
+
+=
+>
+>=
+<
+<=
