@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Note</title>
+    <link href="../track-7/assets/css/styles.css" media="all" rel="stylesheet" />
+    <link rel="shortcut icon" href="" />
+    <style type="text/css">a {text-decoration: none; color: #B0B0B0;}</style>
+    <div class="wrapper">
+    <script language="JavaScript">
+
+      
+      var text= "I hope to see you again one day. \ <br>  For the time being,  please \ <br> continue on,  strive to be \ <br> stronger and happier than ever. ";
+              
+
+      var delay=200;
+var currentChar=1;
+var destination="[none]";
+function type()
+{
+  //if (document.all)
+  {
+    var dest=document.getElementById(destination);
+    if (dest)// && dest.innerHTML)
+    {
+      dest.innerHTML=text.substr(0, currentChar)+"|";
+      currentChar++;
+      if (currentChar>text.length)
+      {
+        currentChar=1;
+        setTimeout("type()", 20000);
+      } 
+      else
+      {
+        setTimeout("type()", delay);
+      }
+    }
+  }
+}
+
+function startTyping(textParam, delayParam, destinationParam)
+{
+  text=textParam;
+  delay=delayParam;
+  currentChar=1;
+  destination=destinationParam;
+  type();
+}
+//-->  
+  </script>
+
+<STYLE TYPE="text/css">
+<!--
+.news
+{
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  
+  color=#000;
+  color=#000
+  
+}
+-->
+</STYLE>
+<title>Note</title>
+</head>
+
+<body bgcolor="#fff" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" COLOR="#FFFFFF">
+   <a href="../track-7/index9.html"<font size="40" face=""Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; color="#B0B0B0">- divulge more -<br><br></font></a>
+   <font color="#222"><DIV ID="textDestination" class="news">...</DIV></FONT>
+</body>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+javascript:startTyping(text, 50, "textDestination");
+//-->
+</SCRIPT>
+</div>
+
+</html>
+
+  
+
+  <body>
+
+    <!--This thing called life...
+    
+    <div class = "wrapper">
+          <div class="text-block-1">
+            This thing called life... 
+          </div>
+           <a href="../track-7/index2.html">
+    </div>-->
+
+    <script src="assets/js/app.js"></script>
+
+  </body>
+</html>
+

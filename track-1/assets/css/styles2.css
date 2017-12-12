@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #f00;
+} 
+
+.text {
+	text-align: justify;
+	font-size: 50px;
+}
+
+.text2 {
+	text-align: right;
+	font-size: 25px;
+}
